@@ -1,0 +1,9 @@
+module rpi-gpio-app
+
+go 1.27.3
+
+
+require (
+	periph.io/x/conn/v3 v3.7.1
+	periph.io/x/host/v3 v3.8.3
+)
